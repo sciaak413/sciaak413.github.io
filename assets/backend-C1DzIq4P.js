@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/client-5VoEDIfl.js","assets/tslib.es6-Tae09705.js"])))=>i.map(i=>d[i]);
+import{l as e}from"./i18n-BxNhpQWY.js";import{u as t}from"./button-BbA74hxE.js";var n=t(`LoaderCircle`,[[`path`,{d:`M21 12a9 9 0 1 1-6.219-8.56`,key:`13zald`}]]),r=async()=>(await e(async()=>{let{supabase:e}=await import(`./client-5VoEDIfl.js`);return{supabase:e}},__vite__mapDeps([0,1]))).supabase;export{n,r as t};
