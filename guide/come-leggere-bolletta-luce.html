@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Come leggere la bolletta della luce (formato 2026) — Splittiamo</title>
+  <meta name="description" content="Il nuovo formato ARERA spiegato semplice: scontrino dell'energia, box dell'offerta, quota fissa e consumo, periodo di competenza. Cosa guardare davvero." />
+  <link rel="canonical" href="https://splittiamo.app/guide/come-leggere-bolletta-luce.html" />
+  <meta property="og:title" content="Come leggere la bolletta della luce (formato 2026)" />
+  <meta property="og:description" content="Scontrino dell'energia, box dell'offerta, periodo di competenza: cosa guardare davvero nella bolletta." />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://splittiamo.app/og-image.jpg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline'; img-src 'self' data:; script-src 'none'" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.65; color: #2a2a2a; background: #fff; padding: 0 1rem 3rem; -webkit-font-smoothing: antialiased; }
+    main { max-width: 720px; margin: 0 auto; }
+    .brand { max-width: 720px; margin: 0 auto; padding: 1rem 0; display: flex; align-items: center; gap: .6rem; }
+    .brand img { width: 32px; height: 32px; border-radius: 8px; }
+    .brand a { font-weight: 800; font-size: 1.1rem; color: #2a2a2a; text-decoration: none; }
+    h1 { font-size: 1.6rem; line-height: 1.25; margin: .75rem 0 .5rem; font-weight: 800; }
+    h2 { font-size: 1.2rem; margin: 1.8rem 0 .5rem; font-weight: 700; }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem 1.25rem; padding: 0; }
+    li { margin-bottom: .4rem; }
+    a { color: #b34a1f; }
+    .meta { color: #666; font-size: .9rem; margin-bottom: 1.25rem; }
+    .box { background: #fdf1ec; border: 1px solid #f3d9cd; border-radius: 14px; padding: 1rem 1.1rem; margin: 1.5rem 0; }
+    table { border-collapse: collapse; width: 100%; margin: 0 0 1rem; font-size: .95rem; }
+    th, td { border: 1px solid #eee; padding: .5rem .6rem; text-align: left; }
+    th { background: #faf7f5; }
+    .cta { background: linear-gradient(135deg, #EE5539, #F88F62); border-radius: 16px; padding: 1.25rem; margin: 2rem 0 1rem; color: #fff; }
+    .cta a.btn { display: inline-block; background: #fff; color: #c2401f; font-weight: 700; padding: .65rem 1.1rem; border-radius: 12px; text-decoration: none; margin-top: .5rem; }
+    footer { max-width: 720px; margin: 2rem auto 0; color: #888; font-size: .85rem; border-top: 1px solid #eee; padding-top: 1rem; }
+    footer a { color: #b34a1f; }
+    @media (min-width: 768px) { body { font-size: 17px; } h1 { font-size: 1.9rem; } }
+  
+    /* Barra "torna indietro": in cima e sempre visibile. Senza, da telefono
+       l'unico modo di uscire era lo scorrimento laterale — che non tutti
+       conoscono, e chi non lo conosce resta bloccato in una pagina legale. */
+    .sp-back {
+      position: sticky; top: 0; z-index: 10;
+      display: block; margin: -1.5rem -1rem 1.25rem; padding: 0.85rem 1rem;
+      background: rgba(255,255,255,0.94); backdrop-filter: blur(6px);
+      border-bottom: 1px solid #e6e6e6;
+      font-size: 0.95rem; font-weight: 600; color: #d94f35; text-decoration: none;
+    }
+    .sp-back:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <a href="/" class="sp-back" aria-label="Torna a Splittiamo">
+    <span aria-hidden="true">&#8592;</span> Torna a Splittiamo
+  </a>
+  <div class="brand">
+    <img src="/icon-192.png" alt="" /><a href="/">Splittiamo</a>
+  </div>
+  <main>
+    <h1>Come leggere la bolletta della luce (formato 2026)</h1>
+    <p class="meta">Guida pratica · aggiornata a luglio 2026</p>
+
+    <p>Dal 1° luglio 2025 le bollette di luce e gas hanno un formato nuovo, deciso da
+    ARERA per renderle finalmente confrontabili: una prima pagina uguale per tutti i
+    fornitori, lo <strong>Scontrino dell'energia</strong> e il <strong>Box dell'offerta</strong>.
+    Da aprile 2026 le voci sono state semplificate ancora. Qui trovi cosa guardare
+    davvero, in ordine di importanza.</p>
+
+    <h2>1. Il periodo di competenza (la voce che quasi tutti ignorano)</h2>
+    <p>Prima ancora dell'importo, cerca <strong>il periodo fatturato</strong>: due date,
+    di solito scritte come «consumi dal … al …». È la cosa più importante se dividi le
+    spese con qualcuno, perché la bolletta <em>non</em> riguarda il mese in cui arriva:
+    riguarda i mesi in cui l'energia è stata consumata.</p>
+    <p>Una bolletta che arriva a giugno e copre marzo-aprile va divisa tra chi abitava
+    in casa a <strong>marzo e aprile</strong>. Ignorare questo dettaglio è il primo
+    motivo di litigio quando qualcuno subentra a metà anno
+    (ne parliamo nella <a href="/guide/subentro-coinquilino-meta-mese.html">guida al subentro</a>).</p>
+
+    <h2>2. Lo "Scontrino dell'energia"</h2>
+    <p>È la novità principale del nuovo formato: funziona come lo scontrino del
+    supermercato, con <strong>quantità × prezzo</strong>. Ti dice quanta energia hai
+    consumato e a quanto te l'hanno venduta, senza dover interpretare tabelle.
+    Con la semplificazione di aprile 2026 i costi del venditore sono raggruppati in due
+    numeri soli:</p>
+    <ul>
+      <li><strong>Quota fissa</strong> (€/anno): quello che paghi comunque, anche se
+      consumi zero. È il motivo per cui una casa vuota per due settimane non porta la
+      bolletta a zero.</li>
+      <li><strong>Quota consumo</strong> (€/kWh per la luce, €/Smc per il gas): il costo
+      dell'energia effettivamente usata.</li>
+    </ul>
+    <p>Sono anche i due numeri da confrontare quando valuti un'offerta diversa: prima
+    erano sparsi in mezzo a decine di voci, ed è esattamente per questo che i confronti
+    non tornavano mai.</p>
+
+    <h2>3. Le altre sezioni, in breve</h2>
+    <table>
+      <tr><th>Sezione</th><th>Cos'è</th><th>Si può ridurre?</th></tr>
+      <tr><td>Consumo / quota fissa / potenza</td><td>Quello che paghi al venditore per l'energia</td><td>Sì, cambiando offerta</td></tr>
+      <tr><td>Reti e oneri di sistema</td><td>Trasporto, gestione del contatore e oneri generali: uguali per tutti</td><td>No</td></tr>
+      <tr><td>Imposte</td><td>Accise e IVA</td><td>No</td></tr>
+      <tr><td>Canone RAI</td><td>Nella bolletta della luce, ora su una riga a sé</td><td>Solo con i requisiti di esenzione</td></tr>
+    </table>
+    <p>Tradotto: quando ti dicono «cambia fornitore e risparmi», il risparmio può
+    riguardare <strong>solo la prima riga</strong>. Reti, oneri e imposte non cambiano
+    con il venditore: è utile saperlo per non aspettarsi miracoli.</p>
+
+    <h2>4. Il "Box dell'offerta"</h2>
+    <p>Riassume le condizioni che hai sottoscritto: prezzo fisso o variabile, durata,
+    eventuali sconti a tempo. Serve soprattutto per una verifica che quasi nessuno fa:
+    controllare che <strong>quello che paghi corrisponda a quello che ti avevano
+    promesso</strong>, soprattutto quando scade uno sconto promozionale.</p>
+
+    <h2>5. Lettura effettiva o stimata?</h2>
+    <p>Cerca la dicitura vicino ai consumi: se la lettura è <strong>stimata</strong>, il
+    fornitore sta indovinando quanto hai consumato in base allo storico — e prima o poi
+    arriverà un <a href="/guide/conguaglio-bolletta-cosa-significa.html">conguaglio</a>
+    che sistema i conti, in positivo o in negativo. Se puoi, comunica l'autolettura:
+    è il modo più semplice per evitare sorprese.</p>
+
+    <div class="box">
+      <strong>I 30 secondi che contano:</strong> guarda il periodo fatturato, l'importo
+      totale, e se la lettura è effettiva o stimata. Con questi tre dati sai già se la
+      bolletta è normale, se ti aspetta un conguaglio e come dividerla con chi vive con te.
+    </div>
+
+    <h2>Se la bolletta la devi anche dividere</h2>
+    <p>Presa nota di importo e periodo, il resto è aritmetica — e la fa
+    <strong>Splittiamo</strong>: inserisci la bolletta (o fotografala e lascia che
+    l'app legga i campi), e le quote vengono calcolate sui <strong>mesi di
+    competenza</strong>, tenendo conto di chi abitava in casa in quei mesi. Gratuita,
+    senza pubblicità, dati su server europei.</p>
+
+    <div class="cta">
+      <strong>La bolletta è arrivata. Chi paga quanto?</strong><br />
+      Caricala e lascia i conti all'app: è gratis.
+      <br /><a class="btn" href="/">Prova Splittiamo</a>
+    </div>
+  </main>
+  <footer>
+    <a href="/">Splittiamo</a> ·
+    <a href="/calcolatore-quote.html">Calcolatore quote</a> ·
+    <a href="/guide/dividere-bollette-coinquilini.html">Dividere le bollette</a> ·
+    <a href="/guide/conguaglio-bolletta-cosa-significa.html">Il conguaglio</a> ·
+    <a href="/guide/quanto-si-spende-di-bollette-casa-condivisa.html">Quanto si spende</a> ·
+    <a href="/guide/bolletta-mesi-prima-di-entrare.html">Mesi prima di entrare</a> ·
+    <a href="/guide/stanza-sfitta-chi-paga-le-spese.html">Stanza sfitta</a> ·
+    <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Termini</a>
+  </footer>
+</body>
+</html>

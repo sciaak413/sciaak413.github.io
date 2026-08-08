@@ -1,0 +1,1 @@
+function e(e){let t=e.replace(/[^\d,]/g,``),n=t.indexOf(`,`);if(n!==-1){let e=t.slice(0,n),r=t.slice(n+1).replace(/,/g,``).slice(0,2);t=e+`,`+r}return t}function t(e){if(!e)return 0;let t=Number(e.replace(`,`,`.`));return Number.isFinite(t)?t:0}function n(e){return e==null?``:String(e).replace(`.`,`,`)}export{e as n,n as r,t};

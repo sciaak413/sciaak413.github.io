@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Splittiamo — Spese di casa, finalmente chiare</title>
+    <meta name="description" content="Gestisci bollette, utenze e conguagli con i tuoi coinquilini. Semplice, trasparente, condiviso." />
+    <meta name="author" content="Splittiamo" />
+    <meta name="theme-color" content="#f25c3c" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Splittiamo" />
+
+    <meta property="og:title" content="Splittiamo — Spese di casa, finalmente chiare" />
+    <meta property="og:description" content="Gestisci bollette, utenze e conguagli con i tuoi coinquilini." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://splittiamo.app/" />
+    <!-- L'immagine era un PNG da 384 KB e su WhatsApp l'anteprima non compariva
+         (provato l'8/8/2026). Ora e' un JPEG da 47 KB: sotto la soglia oltre la
+         quale diversi client rinunciano a scaricare la miniatura. Il tipo va
+         dichiarato: alcuni robot senza quello non la considerano. -->
+    <meta property="og:image" content="https://splittiamo.app/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Splittiamo — le spese di casa, finalmente chiare" />
+    <link rel="canonical" href="https://splittiamo.app/" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://splittiamo.app/og-image.jpg" />
+
+    <!-- Font self-hostati via @fontsource (niente richieste a Google = GDPR).
+         Content-Security-Policy: solo la nostra origine + il nostro backend.
+         I localhost servono a sviluppo/collaudo locale e sono innocui online.
+         accounts.google.com e' l'UNICA terza parte ammessa, e serve al pulsante
+         di accesso di Google: e' la libreria che consegna il gettone d'identita'
+         direttamente alla pagina, senza rimbalzare sul dominio del database.
+         Senza queste voci lo script verrebbe bloccato e resterebbe solo il
+         metodo classico. lh3.googleusercontent.com serve alla foto profilo. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' https://accounts.google.com; style-src 'self' 'unsafe-inline' https://accounts.google.com; img-src 'self' data: blob: https://tqctjmfkwmbqgytjxzsl.supabase.co https://lh3.googleusercontent.com; font-src 'self' data:; connect-src 'self' https://tqctjmfkwmbqgytjxzsl.supabase.co wss://tqctjmfkwmbqgytjxzsl.supabase.co https://splittiamo-ocr.onrender.com https://accounts.google.com http://localhost:* ws://localhost:*; frame-src https://accounts.google.com; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+    />
+    <script type="module" crossorigin src="/assets/index-DG9v3h6J.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-QTnfLwEv.js">
+    <link rel="modulepreload" crossorigin href="/assets/i18n-BP_i6PAH.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-dom-egbPK09q.js">
+    <link rel="modulepreload" crossorigin href="/assets/button-Dd4a-bbX.js">
+    <link rel="modulepreload" crossorigin href="/assets/backend-BOBesUAn.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-DqUsmoLU.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-CL0d_xcM.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-DT0iIBgh.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-DbxqOP-C.js">
+    <link rel="modulepreload" crossorigin href="/assets/dist-BcUKEkZM.js">
+    <link rel="modulepreload" crossorigin href="/assets/tslib.es6-Tae09705.js">
+    <link rel="modulepreload" crossorigin href="/assets/es2015-CeHDKs93.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DbUVxhjr.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- CONTENUTO SENZA JAVASCRIPT.
+         Questa pagina, prima che il programma parta, contiene sette parole e
+         nessun collegamento. Chi la apre con JavaScript attivo non se ne
+         accorge: in un attimo compare tutto, guide comprese. Ma il primo
+         passaggio di Google legge l'HTML cosi' com'e', e per vedere il resto
+         deve tornare una seconda volta, piu' tardi e con meno priorita'. Da qui
+         il ritardo con cui le guide entrano nell'indice.
+         Qui sotto c'e' quindi lo stesso identico elenco che il programma
+         mostra una volta partito: nessun testo nascosto e nessuna promessa in
+         piu' - solo le stesse porte, aperte anche a chi arriva senza
+         JavaScript (e ai lettori di schermo che non lo eseguono). -->
+    <noscript>
+      <h1>Splittiamo — le spese di casa, finalmente chiare</h1>
+      <p>
+        Splittiamo divide bollette, utenze e conguagli tra coinquilini. A differenza delle app
+        che dividono una spesa tra amici, tiene conto del <strong>periodo di competenza</strong>:
+        una bolletta arriva a giugno ma copre marzo e aprile, e chi in quei mesi non c'era non
+        deve pagarla. Funziona dal browser, si installa sul telefono, i dati stanno su server
+        europei.
+      </p>
+      <p><a href="/calcolatore-quote.html">Calcolatore delle quote</a> — quanto tocca a ciascuno, senza registrarsi.</p>
+      <h2>Guide</h2>
+      <ul>
+        <li><a href="/guide/dividere-bollette-coinquilini.html">Come dividere le bollette tra coinquilini (senza litigare)</a></li>
+        <li><a href="/guide/bolletta-mesi-prima-di-entrare.html">La bolletta copre mesi in cui non abitavo lì: devo pagarla?</a></li>
+        <li><a href="/guide/subentro-coinquilino-meta-mese.html">Subentro in una stanza a metà mese: chi paga le bollette?</a></li>
+        <li><a href="/guide/conguaglio-bolletta-cosa-significa.html">Conguaglio in bolletta: cos'è, come si calcola e come dividerlo</a></li>
+        <li><a href="/guide/come-leggere-bolletta-luce.html">Come leggere la bolletta della luce (formato 2026)</a></li>
+        <li><a href="/guide/quanto-si-spende-di-bollette-casa-condivisa.html">Quanto si spende di bollette in una casa condivisa</a></li>
+        <li><a href="/guide/bollette-intestate-al-proprietario.html">Bollette intestate al proprietario: chi paga cosa</a></li>
+        <li><a href="/guide/stanza-sfitta-chi-paga-le-spese.html">Stanza sfitta: chi paga condominio e TARI?</a></li>
+        <li><a href="/guide/riepilogo-spese-proprietario.html">Riepilogo spese per il proprietario: come farlo bene</a></li>
+        <li><a href="/guide/voltura-cambio-coinquilino.html">Voltura quando cambia un coinquilino: serve davvero?</a></li>
+        <li><a href="/guide/affitto-spese-incluse-conviene.html">Affitto con spese incluse: conviene davvero?</a></li>
+      </ul>
+      <p>
+        <a href="/supporto.html">Supporto</a> ·
+        <a href="/privacy.html">Privacy</a> ·
+        <a href="/terms.html">Termini</a>
+      </p>
+    </noscript>
+
+  </body>
+</html>

@@ -1,0 +1,1 @@
+import{u as e}from"./button-Dd4a-bbX.js";var t=e(`Paperclip`,[[`path`,{d:`m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48`,key:`1u3ebp`}]]),n=null;function r(e){n=e}function i(){let e=n;return n=null,e}export{i as n,t as r,r as t};
