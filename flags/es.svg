@@ -1,0 +1,9 @@
+<!-- Bandiera civile spagnola (senza stemma).
+     Quella con lo stemma pesava 149 kB: 149 kB di dettaglio araldico per
+     un'immagine che viene disegnata a 15x15 pixel, dove lo stemma e' qualche
+     decina di pixel indistinguibili. Era il secondo file piu' pesante di tutta
+     la landing — la pagina che chi riceve l'invito apre col telefono. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 500">
+  <rect width="750" height="500" fill="#AA151B"/>
+  <rect y="125" width="750" height="250" fill="#F1BF00"/>
+</svg>
